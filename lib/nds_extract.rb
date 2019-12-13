@@ -30,7 +30,7 @@ def directors_totals(nds)
       m += 1
     end
     results[nds[d][:name]] = total
-    binding.pry
+    # binding.pry
     d += 1
   end
   results

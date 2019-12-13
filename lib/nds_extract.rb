@@ -33,7 +33,7 @@ def directors_totals(nds)
     binding.pry
     d += 1
   end
-  
+  results
 end
 
 directors_totals(directors_database)

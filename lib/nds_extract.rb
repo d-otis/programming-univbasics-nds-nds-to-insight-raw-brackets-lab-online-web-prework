@@ -20,10 +20,10 @@ def directors_totals(nds)
   #
   # Be sure to return the result at the end!
   d = 0
-  total = 0
   results = {}
   while d < nds.length do
     m = 0
+    total = 0
     while m < nds[d][:movies].length do
       puts nds[d][:movies][m][:worldwide_gross]
       total += nds[d][:movies][m][:worldwide_gross]

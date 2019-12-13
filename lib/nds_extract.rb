@@ -29,7 +29,7 @@ def directors_totals(nds)
       total += nds[d][:movies][m][:worldwide_gross]
       m += 1
     end
-    results[d][:name] = total
+    results[d[:name]] = total
     binding.pry
     d += 1
   end
